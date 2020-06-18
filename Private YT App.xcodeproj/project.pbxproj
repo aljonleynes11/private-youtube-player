@@ -1,0 +1,417 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		52203BBB2499DCA900677DBE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52203BBA2499DCA900677DBE /* AppDelegate.swift */; };
+		52203BBD2499DCA900677DBE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52203BBC2499DCA900677DBE /* SceneDelegate.swift */; };
+		52203BBF2499DCA900677DBE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52203BBE2499DCA900677DBE /* ViewController.swift */; };
+		52203BC22499DCA900677DBE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52203BC02499DCA900677DBE /* Main.storyboard */; };
+		52203BC42499DCAB00677DBE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52203BC32499DCAB00677DBE /* Assets.xcassets */; };
+		52203BC72499DCAB00677DBE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52203BC52499DCAB00677DBE /* LaunchScreen.storyboard */; };
+		5294D67E249B0F2F001F69B8 /* SecondScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5294D67D249B0F2F001F69B8 /* SecondScreenViewController.swift */; };
+		E4112DFB9054524FDF6C2E60 /* Pods_Private_YT_App.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 510C07B07B986328CF2F4AC5 /* Pods_Private_YT_App.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		510C07B07B986328CF2F4AC5 /* Pods_Private_YT_App.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Private_YT_App.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		52203BB72499DCA900677DBE /* Private YT App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Private YT App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		52203BBA2499DCA900677DBE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		52203BBC2499DCA900677DBE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		52203BBE2499DCA900677DBE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		52203BC12499DCA900677DBE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		52203BC32499DCAB00677DBE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		52203BC62499DCAB00677DBE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		52203BC82499DCAB00677DBE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5294D67D249B0F2F001F69B8 /* SecondScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondScreenViewController.swift; sourceTree = "<group>"; };
+		8EA0C71C384EAA1312A8A3EE /* Pods-Private YT App.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Private YT App.release.xcconfig"; path = "Target Support Files/Pods-Private YT App/Pods-Private YT App.release.xcconfig"; sourceTree = "<group>"; };
+		EE3D301D34A1DFEC1EACC298 /* Pods-Private YT App.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Private YT App.debug.xcconfig"; path = "Target Support Files/Pods-Private YT App/Pods-Private YT App.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		52203BB42499DCA900677DBE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E4112DFB9054524FDF6C2E60 /* Pods_Private_YT_App.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1C8DBDC6AB00BF1855D4D96C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EE3D301D34A1DFEC1EACC298 /* Pods-Private YT App.debug.xcconfig */,
+				8EA0C71C384EAA1312A8A3EE /* Pods-Private YT App.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		52203BAE2499DCA900677DBE = {
+			isa = PBXGroup;
+			children = (
+				52203BB92499DCA900677DBE /* Private YT App */,
+				52203BB82499DCA900677DBE /* Products */,
+				1C8DBDC6AB00BF1855D4D96C /* Pods */,
+				D0E5221877CDA62E7D16076E /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		52203BB82499DCA900677DBE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				52203BB72499DCA900677DBE /* Private YT App.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		52203BB92499DCA900677DBE /* Private YT App */ = {
+			isa = PBXGroup;
+			children = (
+				52203BBA2499DCA900677DBE /* AppDelegate.swift */,
+				52203BBC2499DCA900677DBE /* SceneDelegate.swift */,
+				52203BBE2499DCA900677DBE /* ViewController.swift */,
+				5294D67D249B0F2F001F69B8 /* SecondScreenViewController.swift */,
+				52203BC02499DCA900677DBE /* Main.storyboard */,
+				52203BC32499DCAB00677DBE /* Assets.xcassets */,
+				52203BC52499DCAB00677DBE /* LaunchScreen.storyboard */,
+				52203BC82499DCAB00677DBE /* Info.plist */,
+			);
+			path = "Private YT App";
+			sourceTree = "<group>";
+		};
+		D0E5221877CDA62E7D16076E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				510C07B07B986328CF2F4AC5 /* Pods_Private_YT_App.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		52203BB62499DCA900677DBE /* Private YT App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 52203BCB2499DCAB00677DBE /* Build configuration list for PBXNativeTarget "Private YT App" */;
+			buildPhases = (
+				80AE5C86D955BE821632C6C2 /* [CP] Check Pods Manifest.lock */,
+				52203BB32499DCA900677DBE /* Sources */,
+				52203BB42499DCA900677DBE /* Frameworks */,
+				52203BB52499DCA900677DBE /* Resources */,
+				9ADAFE0F0DE1E43A4BCBA93D /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Private YT App";
+			productName = "Private YT App";
+			productReference = 52203BB72499DCA900677DBE /* Private YT App.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		52203BAF2499DCA900677DBE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1150;
+				LastUpgradeCheck = 1150;
+				ORGANIZATIONNAME = "macbook pro";
+				TargetAttributes = {
+					52203BB62499DCA900677DBE = {
+						CreatedOnToolsVersion = 11.5;
+					};
+				};
+			};
+			buildConfigurationList = 52203BB22499DCA900677DBE /* Build configuration list for PBXProject "Private YT App" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 52203BAE2499DCA900677DBE;
+			productRefGroup = 52203BB82499DCA900677DBE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				52203BB62499DCA900677DBE /* Private YT App */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		52203BB52499DCA900677DBE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52203BC72499DCAB00677DBE /* LaunchScreen.storyboard in Resources */,
+				52203BC42499DCAB00677DBE /* Assets.xcassets in Resources */,
+				52203BC22499DCA900677DBE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		80AE5C86D955BE821632C6C2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Private YT App-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9ADAFE0F0DE1E43A4BCBA93D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Private YT App/Pods-Private YT App-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Private YT App/Pods-Private YT App-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Private YT App/Pods-Private YT App-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		52203BB32499DCA900677DBE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5294D67E249B0F2F001F69B8 /* SecondScreenViewController.swift in Sources */,
+				52203BBF2499DCA900677DBE /* ViewController.swift in Sources */,
+				52203BBB2499DCA900677DBE /* AppDelegate.swift in Sources */,
+				52203BBD2499DCA900677DBE /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		52203BC02499DCA900677DBE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				52203BC12499DCA900677DBE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		52203BC52499DCAB00677DBE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				52203BC62499DCAB00677DBE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		52203BC92499DCAB00677DBE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		52203BCA2499DCAB00677DBE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		52203BCC2499DCAB00677DBE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EE3D301D34A1DFEC1EACC298 /* Pods-Private YT App.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GQFULQQ76Y;
+				INFOPLIST_FILE = "Private YT App/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.helloworld2.Private-YT-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		52203BCD2499DCAB00677DBE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8EA0C71C384EAA1312A8A3EE /* Pods-Private YT App.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GQFULQQ76Y;
+				INFOPLIST_FILE = "Private YT App/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.helloworld2.Private-YT-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		52203BB22499DCA900677DBE /* Build configuration list for PBXProject "Private YT App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				52203BC92499DCAB00677DBE /* Debug */,
+				52203BCA2499DCAB00677DBE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		52203BCB2499DCAB00677DBE /* Build configuration list for PBXNativeTarget "Private YT App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				52203BCC2499DCAB00677DBE /* Debug */,
+				52203BCD2499DCAB00677DBE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 52203BAF2499DCA900677DBE /* Project object */;
+}

@@ -1,0 +1,16 @@
+PODS:
+  - YoutubePlayer-in-WKWebView (0.3.4)
+
+DEPENDENCIES:
+  - YoutubePlayer-in-WKWebView
+
+SPEC REPOS:
+  trunk:
+    - YoutubePlayer-in-WKWebView
+
+SPEC CHECKSUMS:
+  YoutubePlayer-in-WKWebView: af2f5929fc78882d94bfdfeea999b661b78d9717
+
+PODFILE CHECKSUM: 19fdbaf4d53be3af28e938ece9bd8d3270b12b85
+
+COCOAPODS: 1.9.3
